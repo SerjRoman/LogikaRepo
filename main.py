@@ -9,12 +9,6 @@ def figura():
     for i in range(6):
      main_turtle.forward(100)
      main_turtle.left(60)
-    
-
-
-
-
-
 figura()
 main_turtle.hideturtle()
 turtle.exitonclick()
