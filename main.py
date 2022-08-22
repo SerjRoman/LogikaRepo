@@ -4,7 +4,7 @@ main_turtle = turtle.Turtle()
 
 def Pentagon(x, y):
 
-    main_turtle.color("green")
+    main_turtle.color("red")
 
     main_turtle.penup()
     main_turtle.goto(x, y)
