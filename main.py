@@ -3,6 +3,7 @@ import turtle
 
 main_turtle = turtle.Turtle()
 
+
 def TurtLe(x,y):
     main_turtle.pencolor('blue')
     main_turtle.width(5)
@@ -23,6 +24,17 @@ def TurtLe(x,y):
     main_turtle.fillcolor('blue')
     main_turtle.end_fill()
 
+def Pentagon(x, y):
+    
+
+    main_turtle.color("red")
+    main_turtle.penup()
+    main_turtle.goto(x, y)
+    main_turtle.pendown()
+
+    for i in range(5):
+        main_turtle.forward(100)
+        main_turtle.left(72)
 
 def rarka(x,y):
     main_turtle.penup()
@@ -147,6 +159,10 @@ def bogdans_pyatiugolnik(x,y):
     main_turtle.forward(50) 
     main_turtle.end_fill()   
 bogdans_pyatiugolnik(0,0)
+
+    
+Pentagon(-200, -200)
+
 
 main_turtle.hideturtle()
 turtle.exitonclick()
