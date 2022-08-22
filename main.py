@@ -27,7 +27,7 @@ def TurtLe(x,y):
 def Pentagon(x, y):
     
 
-    main_turtle.color("red")
+    main_turtle.pencolor("red")
     main_turtle.penup()
     main_turtle.goto(x, y)
     main_turtle.pendown()
@@ -77,10 +77,10 @@ def ilya(x,y):
     main_turtle.forward(50)
     main_turtle.end_fill()
     
-ilya(100,100)
+ilya(250,50)
 
 
-YarikTelius(50,50)
+YarikTelius(200,50)
 
 
 def figura(x,y):
@@ -91,7 +91,7 @@ def figura(x,y):
     for i in range(6):
         main_turtle.forward(100)
         main_turtle.left(60)
-figura(100,100)
+figura(50,200)
 
 
 def Turtle(x,y):
@@ -105,9 +105,9 @@ def Turtle(x,y):
         main_turtle.left(90)
 
 
-Turtle(100,100)
+Turtle(100,200)
 
-rarka(100,100)
+rarka(150,50)
 
 
 def draw_circle(x,y):
@@ -118,7 +118,7 @@ def draw_circle(x,y):
     main_turtle.begin_fill()
     main_turtle.circle(50)
     main_turtle.end_fill()
-draw_circle(100,100)
+draw_circle(150,200)
 
 def purple_figure(x, y):
     main_turtle.color('purple')
@@ -139,8 +139,8 @@ def purple_figure(x, y):
     main_turtle.forward(50)
     main_turtle.forward(25)
 
-TurtLe(100,100)
-
+TurtLe(50,50)
+purple_figure(200,200)
 
 def bogdans_pyatiugolnik(x,y):
     main_turtle.color('green')
@@ -156,12 +156,12 @@ def bogdans_pyatiugolnik(x,y):
     main_turtle.right(45)
     main_turtle.forward(50)
     main_turtle.right(90)
-    main_turtle.forward(50) 
+    main_turtle.forward(50)
     main_turtle.end_fill()   
-bogdans_pyatiugolnik(0,0)
+bogdans_pyatiugolnik(250,200)
 
     
-Pentagon(-200, -200)
+Pentagon(100, 50)
 
 
 main_turtle.hideturtle()
