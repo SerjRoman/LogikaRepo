@@ -2,9 +2,9 @@ import turtle
 
 main_turtle = turtle.Turtle()
 
-def Turtle():
+def Turtle(x,y):
     main_turtle.penup()
-    main_turtle.goto(200, 50)
+    main_turtle.goto(x, y)
     main_turtle.pendown()
     main_turtle.left(45)
     main_turtle.width(6)
@@ -13,6 +13,6 @@ def Turtle():
         main_turtle.left(90)
 
 
-Turtle()
+Turtle(100,100)
 main_turtle.hideturtle()
 turtle.exitonclick()
