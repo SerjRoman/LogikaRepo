@@ -3,6 +3,8 @@ import turtle
 main_turtle = turtle.Turtle()
 
 def rarka():
+    main_turtle.penup()
+    main_turtle.goto(100,100)
     main_turtle.shapesize(3)
     main_turtle.color("green")
     main_turtle.pendown()
