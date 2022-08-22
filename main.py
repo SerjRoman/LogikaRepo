@@ -2,6 +2,7 @@
 import turtle
 
 main_turtle = turtle.Turtle()
+
 def TurtLe(x,y):
     main_turtle.pencolor('blue')
     main_turtle.width(5)
@@ -127,6 +128,25 @@ def purple_figure(x, y):
     main_turtle.forward(25)
 
 TurtLe(100,100)
+
+
+def bogdans_pyatiugolnik(x,y):
+    main_turtle.color('green')
+    main_turtle.penup()
+    main_turtle.goto(x,y)
+    main_turtle.pendown()
+    main_turtle.begin_fill()
+    main_turtle.forward(50)
+    main_turtle.right(45)
+    main_turtle.forward(33)
+    main_turtle.right(90)
+    main_turtle.forward(33)
+    main_turtle.right(45)
+    main_turtle.forward(50)
+    main_turtle.right(90)
+    main_turtle.forward(50) 
+    main_turtle.end_fill()   
+bogdans_pyatiugolnik(0,0)
 
 main_turtle.hideturtle()
 turtle.exitonclick()
